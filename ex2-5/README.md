@@ -1,4 +1,4 @@
-#Exercise 2.5: Nonstationary Bandit Comparison
+# Exercise 2.5: Nonstationary Bandit Comparison
 
 This exercise is a comparison between Q agents using two different update methods in a nonstationary bandit environment. One agent uses a simple average to update its Q values while the other uses an exponential average with learning rate alpha. The experiment was repeated 2000 times as done in figure 2.2. Optimal action selection rates over ten thousand steps are pictured below.
 
