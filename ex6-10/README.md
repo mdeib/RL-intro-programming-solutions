@@ -1,4 +1,4 @@
-# Exercise 6.10: Stochastic Temproal Difference Control
+# Exercise 6.10: Stochastic Temporal Difference Control
 
 Exercise 6.10 is just a stochastic version of exercise 6.9. As such much of the code was reused, and everything stated in exercise 6.9 still applies. Only king’s moves were tested as stated in the exercise description. While the code in this exercise is only slightly different, the noise of the new environment makes the problem far harder. So much harder in fact that even after 10 times as many episodes (and a more slowly decaying epsilon) the agent often overshoots the goal and needs to take far more moves than the minimum of 7 established in exercise 6.9. An example of such results are below:
 
